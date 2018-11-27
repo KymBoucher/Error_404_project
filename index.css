@@ -1,4 +1,6 @@
-ul {
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,4 +19,7 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+    
+h2{
+  font-family: 'Inconsolata', monospace;
 }
