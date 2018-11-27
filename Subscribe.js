@@ -1,4 +1,3 @@
-<script>
 // List of prompts for the user
 var prompts = [
 	"What's your name?",
@@ -42,5 +41,4 @@ $('button').click(function() {
 
 // Show the first prompt as soon as js loads
 nextPrompt();
-</script>
 </div>
