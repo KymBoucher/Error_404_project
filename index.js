@@ -1,6 +1,11 @@
 const editBox = $('#codeEdit');
-editBox.on('keydown', refresh);
 
+
+var editor = CodeMirror.fromTextArea(editBox[0], {
+    lineNumbers: true, mode: 'html'
+  });
+
+editor.on('change', refresh);
 function refresh() {
-$('#output').html(editBox.val())  ;
+  $('#output').html(editor.getValue())  ;
 }
