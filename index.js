@@ -1,9 +1,7 @@
 const editBox = $('#codeEdit');
 
 
-var editor = CodeMirror.fromTextArea(editBox[0], {
-    lineNumbers: true, mode: 'html'
-  });
+
 
 editor.on('change', refresh);
 function refresh() {
@@ -19,6 +17,6 @@ $(window).load(function() {
     slideshowSpeed:4000,
     directionNav: false,
     controlNav: false,
-    itemWidth: 2000
+    itemWidth: 2000,
   });
 });
