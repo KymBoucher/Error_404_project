@@ -1,3 +1,19 @@
-h1{
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+
+.topnav{
+  font-family: 'Inconsolata', monospace;
   
+
+}
+
+
+body {
+  text-align: center;
+    font-size: 20px;
+    color: white;
+    background-image: url("giphy.gif");
+
+}
 }
