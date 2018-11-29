@@ -1,12 +1,6 @@
-const editBox = $('#codeEdit');
 
 
 
-
-editor.on('change', refresh);
-function refresh() {
-  $('#output').html(editor.getValue())  ;
-}
 
 $(window).load(function() {
   $('.flexslider').flexslider({
@@ -20,3 +14,17 @@ $(window).load(function() {
     itemWidth: 2000,
   });
 });
+
+var editor = CodeMirror.fromTextArea(editBox[0], {
+    lineNumbers: true, mode: 'html'  });
+
+const editBox = $('#codeEdit');
+
+
+var editor = CodeMirror.fromTextArea(editBox[0], {
+    lineNumbers: true , mode: 'html'  });
+
+editor.on('change', refresh);
+function refresh() {
+  $('#output').html(editor.getValue())  ;
+}
