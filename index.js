@@ -5,13 +5,13 @@
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
-    animationLoop: false,
+    animationLoop: true,
     itemMargin: 5,
     slideshow: true,
-    slideshowSpeed:4000,
+    slideshowSpeed:2000,
     directionNav: false,
     controlNav: false,
-    itemWidth: 2000,
+    itemWidth: 2000000,
   });
 });
 
