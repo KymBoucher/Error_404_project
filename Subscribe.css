@@ -52,6 +52,18 @@ input {
   font-size: 24px;
 }
 
+figure{
+   width:300px;
+   overflow:hidden;
+   margin:0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+figure img{
+   width:100%;
+   margin:-26% 0;
+}
 
 h6 {
   font-size: 12px;
