@@ -4,19 +4,21 @@
   <link rel="stylesheet" type="text/css" href="index.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title> Error_404_project </title>
+  <link rel="stylesheet" href="lib/codemirror.css">
+  <script src="lib/codemirror.js"></script>
   <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <script src="flexslider/jquery.flexslider-min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
   <div class="container">
     <div class="topnav">
       <a class="active" href="index.html">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
       <a href="About_us.html">About us</a>
       <a href="Subscribe.html">Subscribe</a>
     </div>
@@ -34,15 +36,11 @@
 <br>
 
 <div class="practise">
-  Have a go at coding in HTML! <br>
-  Suggestions: <br>
-  <ul>
-    <li> Try typing your name </li>
-    <li> Now try adding
+  <img src="practise.png" width="400" height="125">
 
   <section>
-    <textarea id="codeEdit"></textarea>
     <div id="output"></div>
-  <script src="index.js"></script>
+    <textarea id="codeEdit"></textarea>
+    <script src="index.js"></script>
 </body>
 </html>

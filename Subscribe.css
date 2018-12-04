@@ -2,7 +2,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   background-color: pink;
   background-repeat: no-repeat;
   background-size: 9000px 800px;
@@ -66,4 +66,11 @@ figure img{
    width:100%;
    margin:-26% 0;
 }
+<<<<<<< HEAD
 >>>>>>> bfcf43c05172533a07a4b65129ed0cdcdd2f779a
+=======
+
+h6 {
+  font-size: 12px;
+}
+>>>>>>> c200e1fe2c289446e35ba415726027f695320732

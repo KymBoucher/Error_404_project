@@ -11,13 +11,11 @@ $(window).load(function() {
   });
 });
 
-var editor = CodeMirror.fromTextArea(editBox[0], {
-    lineNumbers: true, mode: 'html'  });
-
 const editBox = $('#codeEdit');
 
 var editor = CodeMirror.fromTextArea(editBox[0], {
-    lineNumbers: true , mode: 'html'  });
+  lineNumbers: true, mode: 'html'
+});
 
 editor.on('change', refresh);
 function refresh() {
