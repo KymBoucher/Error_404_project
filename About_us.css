@@ -1,8 +1,9 @@
 body {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: black;
-  background-color: #E66A6A;
+  background-color: pink;
   background-repeat: no-repeat;
   background-size: 9000px 800px;
  }

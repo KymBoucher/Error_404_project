@@ -1,7 +1,3 @@
-
-
-
-
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
@@ -19,7 +15,6 @@ var editor = CodeMirror.fromTextArea(editBox[0], {
     lineNumbers: true, mode: 'html'  });
 
 const editBox = $('#codeEdit');
-
 
 var editor = CodeMirror.fromTextArea(editBox[0], {
     lineNumbers: true , mode: 'html'  });
